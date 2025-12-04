@@ -71,9 +71,8 @@ CONFIG_1 = {
             'num_boost_round': 394,
             'num_leaves': 215
         },
-        'semillerio': 10,
+        'semillerio': 7,
         'n_submissions': 11000,
-        'sub_early_stop': 3,
         'months': [201901, 201902, 201903, 201904, 201905, 201906, 201907, 201908, 201909, 201911, 201912],
         'undersampling_fraction': 0.31,
         'chosen_features': ['seleccion_500']
@@ -88,9 +87,8 @@ CONFIG_1 = {
             'num_boost_round': 394,
             'num_leaves': 215
         },
-        'semillerio': 10,
+        'semillerio': 7,
         'n_submissions': 11000,
-        'sub_early_stop': 3,
         'months': [202001, 202003, 202004, 202005, 202007, 202008, 202009, 202010, 202011, 202012],
         'undersampling_fraction': 0.31,
         'chosen_features': ['seleccion_500']
@@ -105,7 +103,7 @@ CONFIG_1 = {
             'num_boost_round': 394,
             'num_leaves': 215
         },
-        'semillerio': 10,
+        'semillerio': 7,
         'n_submissions': 11000,
         'sub_early_stop': 3,
         'months': [202101, 202102, 202103, 202104, 202105, 202106, 202107],
@@ -142,8 +140,7 @@ CONFIG_2 = {
             'num_boost_round': 804,
             'num_leaves': 775
         },
-        'semillerio': 20,
-        'sub_early_stop': 2,
+        'semillerio': 9,
         'n_submissions': 11000,
         'months': [201901, 201902, 201903, 201904, 201905, 201906, 201907, 201908, 201909, 201911, 201912, 202001, 202003, 202004, 202005, 202007, 202008, 202009, 202010, 202011, 202012, 202101, 202102, 202103, 202104, 202105, 202106, 202107],
         'undersampling_fraction': 0.5,
